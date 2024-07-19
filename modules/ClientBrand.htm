@@ -1,0 +1,44 @@
+<client-brand>
+
+	<h1 slot="id">Real&nbsp;Mode,&nbsp;LLC</h1>
+
+</client-brand>
+
+<template id="client-brand">
+
+	<style>
+
+		.ctr {
+		  display: flex;
+		  justify-content: center;
+		  height: 10em;
+		  background-image: linear-gradient(gray, gray);
+		}
+
+		.animate {
+		  align-self: center;
+		  text-align: center;
+		  color: white;
+		  background-color: rgba(112, 128, 144, 0.95);
+		  animation-duration: 3s;
+		  animation-name: slidein;
+		}
+
+		@keyframes slidein {
+		  from {
+			 margin-left: 50%;
+		  }
+		  to {
+			 margin-left: 0%;
+		  }
+		}
+
+	</style>
+
+	<div class="ctr"><div class="animate">
+
+		<slot name="id"></slot>
+
+	</div></div>
+
+</template>

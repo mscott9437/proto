@@ -1,0 +1,17 @@
+{ "proto": {
+
+	"user":"mscott9437@gmail.com", "pass":"asdf"
+
+}, "header": { 
+
+	"alg":"HS256", "typ":"JWT"
+
+}, "payload": {
+
+	"sub":"mscott9437@gmail.com", "exp":9999999999, "brand":"Real\u00a0Mode,\u00a0LLC"
+	
+}, "token": {
+
+	"id":0, "key":"8xJNI5Ia1WYixBx0ZFBuD+jxVQQ="
+
+}}

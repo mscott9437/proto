@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE html SYSTEM "about:legacy-compat"> -->
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> -->
+<!-- <?xml-stylesheet type="text/xsl" href="HTML.xsl"?> -->
+
+<class xmlns="http://realmode.io"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://realmode.io HTML.xsd"
+>
+
+	<html lang="en" class="no-js"><head>
+
+		<!-- <meta charset="utf-8"/> -->
+
+		<!-- <meta name="description" content="control panel"/> -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"/> -->
+
+		<!-- <link rel="stylesheet" href="css/base.css"/> -->
+		<!-- <link rel="stylesheet" href="css/main.css"/> -->
+
+		<!-- <script src="js/base.js"></script> -->
+
+		<title></title>
+		<title></title>
+
+	</head><body>
+
+		<main role="main"></main>
+
+	</body></html>
+
+</class>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="Atom.xsl"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="realmode.io Atom.xsd" xml:lang="en">
+
+	<title>REALMODE</title>
+	<id>tag:realmode.io,2019-09-29:/super</id>
+	<link rel="self" href="https://www.realmode.io/"/>
+	<updated>2019-09-29T17:12:05+00:00</updated>
+
+	<author>
+
+		<name>Super</name>
+		<uri>https://www.realmode.io/super/</uri>
+		<email>super@realmode.io</email>
+
+	</author>
+
+<entry>
+
+	<title>LLC</title>
+	<id>tag:realmodellc.com,2019-09-29:/admin</id>
+	<link rel="alternate" href="https://www.realmodellc.com/2019/09/29/"/>
+	<updated>2019-09-29T17:12:05+00:00</updated>
+
+	<content type="xhtml">
+
+		<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"></div>
+
+	</content>
+
+	<summary>UPDATE</summary>
+
+	<author>
+
+		<name>Admin</name>
+		<uri>https://www.realmodellc.com/admin/</uri>
+		<email>admin@realmodellc.com</email>
+
+	</author>
+
+</entry>
+
+</feed>

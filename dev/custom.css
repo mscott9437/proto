@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+html, body {
+  font-family: "Roboto";
+}
+
+hr {
+  border-style: dashed;
+}
+
+button, input, textarea {
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}

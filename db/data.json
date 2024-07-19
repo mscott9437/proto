@@ -1,0 +1,28 @@
+{
+   "users": {
+      "player1": {
+         "id": 1111,
+         "name": "player1",
+         "pass": "asdf",
+         "friends": { "player2": { "id": 2222, "flag": true }, "player3": { "id": 3333, "flag": false }},
+         "rand": "11.11",
+         "flag": null
+      },
+      "player2": {
+         "id": 2222,
+         "name": "player2",
+         "pass": "qwer",
+         "friends": { "player1": { "id": 1111, "flag": true }, "player3": { "id": 3333, "flag": false }},
+         "rand": "22.22",
+         "flag": null
+      },
+      "player3": {
+         "id": 3333,
+         "name": "player3",
+         "pass": "zxcv",
+         "friends": { "player1": { "id": 1111, "flag": true }, "player2": { "id": 2222, "flag": false }},
+         "rand": "33.33",
+         "flag": null
+      }
+   }
+}

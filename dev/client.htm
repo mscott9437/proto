@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" class="no-js"><head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="realmode.llc">
+	<title>Real&nbsp;Mode,&nbsp;LLC</title>
+	<link rel="icon" type="image/svg+xml" href="/content/realmode.llc/favicon.svg">
+	<script type="module" src="/bundle.js"></script>
+
+</head><body>
+
+<hr>
+
+<div id="poster" aria-label="">
+
+	<h1 id="brand" class="animate">Real&nbsp;Mode,&nbsp;LLC</h1>
+
+</div>
+
+<hr>
+
+<div class="canvas-area">
+
+	<canvas id="canvas-area" width="100" height="100">canvas</canvas>
+
+</div>
+
+<hr>
+
+<form id="base-form" method="post" accept-charset="utf-8" action="javascript:alert('okay')" aria-label="">
+
+	<label for="form-0">Form-0</label>
+	<input id="form-0" name="form-0" type="text">
+
+	<label for="form-1">Form-1</label>
+	<input id="form-1" name="form-1" type="text">
+
+	<label for="form-2">Form-2</label>
+	<textarea id="form-2" name="form-2"></textarea>
+
+	<label for="form-3">Form-3</label>
+	<input id="form-3" name="form-3" type="file">
+
+	<button type="submit">$</button>
+
+</form>
+
+<hr>
+
+<h1 class="user-info">Real&nbsp;Mode,&nbsp;LLC</h1>
+
+<hr>
+
+<a href="http://localhost:8888/login" target="_blank" rel="external nofollow noopener noreferrer">localhost:8888/login</a>
+
+<div id="user-info"></div>
+
+<script>
+
+	var xhr = new XMLHttpRequest();
+
+	xhr.addEventListener('load', function(){
+
+	  document.querySelector('#form-0').value=this.response.payload.sub;
+	  document.querySelector('#form-1').value=this.response.token.key;
+	  document.querySelector('#form-2').value=this.response.message.raw;
+
+	  console.log(this.response.payload.brand);
+	  console.log(this.response);
+
+	  return false;
+
+	});
+
+	xhr.open('GET', '/user.json');
+	xhr.responseType = 'json';
+	xhr.send();
+
+</script>
+
+<noscript>NOSCRIPT</noscript>
+
+</body></html>

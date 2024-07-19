@@ -1,0 +1,20 @@
+{
+  "name": "@real/test_node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "node-test",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx esbuild --bundle  modules.js --outfile=bundle.js --minify --sourcemap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "svelte"
+  ],
+  "author": "real",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.21"
+  }
+}

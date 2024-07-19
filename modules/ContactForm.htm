@@ -1,0 +1,45 @@
+<style>
+
+	form[is="contact-form"] {
+	  display: flex;
+	  flex-direction: column;
+	  font-weight: bold;
+	}
+
+	form[is="contact-form"] input, form[is="contact-form"] textarea {
+	  width: 35%;
+	  margin: 3px;
+	}
+
+	form[is="contact-form"] input[type=file] {
+	  margin: 7px;
+	}
+
+	form[is="contact-form"] button {
+	  border: 0;
+	  width: 20%;
+	  background-color: rgba(112, 128, 144, 0.95);
+	  color: #fff;
+	  font-weight: inherit;
+	  margin: 7px 0 7px 0;
+	}
+
+</style>
+
+<form is="contact-form" method="get" accept-charset="utf-8" action="javascript:alert('okay')" aria-label="">
+
+	<label for="form-0">Form-0</label>
+	<input id="form-0" name="form-0" type="text">
+
+	<label for="form-1">Form-1</label>
+	<input id="form-1" name="form-1" type="text">
+
+	<label for="form-2">Form-2</label>
+	<textarea id="form-2" name="form-2"></textarea>
+
+	<label for="form-3">Form-3</label>
+	<input id="form-3" name="form-3" type="file">
+
+	<button type="submit">$</button>
+
+</form>

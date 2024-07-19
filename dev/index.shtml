@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js"><head>
+
+	<meta charset="utf-8">
+
+	<title>TITLE</title>
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<meta name="description" content="meta">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/base.js"></script>
+
+</head><body>
+
+	<div id="body-0" class="body" aria-label="">
+
+		<div id="ui-0" class="ui">
+
+			<header><h1>header</h1></header><hr><nav><button><span>nav</span></button></nav><hr><main role="main"><article><h1>main</h1><section><h2>h2</h2><h3>h3</h3><h4>h4</h4><h5>h5</h5><h6>h6</h6><p>p</p></section><br><aside>aside</aside></article></main><hr><address><div><a href="tel:+1---">()&#160;&#8209;</a></div></address><hr><footer><pre><code>pre</code></pre></footer>
+
+		</div>
+
+	</div>
+
+	<hr>
+
+	<div id="body-1" class="body" aria-label="">
+
+		<div id="ui-1" class="ui">
+
+			<button id="dat-1" class="dat">GRAB</button>
+
+		</div>
+
+	</div>
+
+	<hr>
+
+	<form id="body-2" class="body" action="submit.php" method="post" accept-charset="utf-8" aria-label="">
+
+		<fieldset id="ui-2" class="ui">
+
+			<label id="dat-1" class="dat" for="dat-2">ID</label>
+			<input id="dat-2" class="dat" type="text" name="dat-2" value="5d4b4e45c161bac49bd2adaa3ababcfdba4f968f">
+
+			<label id="dat-3" class="dat" for="dat-4">HTML</label>
+			<input id="dat-4" class="dat" type="text" name="dat-4" value="">
+
+			<input id="dat-5" class="dat" type="submit" name="dat-5" value="SEND">
+
+		</fieldset>
+
+	</form>
+
+	<div id="body-3" class="body" aria-label="">
+
+		<!--#include virtual="index.htm" -->
+
+	</div>
+
+	<div id="body-4" class="body" aria-label="">
+
+		<a id="dat-4a" class="dat" href="https://www.realmodellc.com" rel="external">https://www.realmodellc.com</a>
+
+		<input id="dat-4b" class="dat" type="number" name="ui-4b" value="0" readonly disabled hidden>
+
+	</div>
+
+	<script src="js/load.js" async></script>
+	<script src="js/main.js" defer></script>
+
+	<noscript>NOSCRIPT</noscript>
+
+	<script src="js/plugins.js"></script>
+
+</body></html>

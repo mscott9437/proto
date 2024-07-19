@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="200" height="172" viewBox="-50 -43 200 172" xmlns="http://www.w3.org/2000/svg">
+
+<g stroke="#eee" stroke-width="1">
+
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-25 -43)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(25 -43) rotate(60)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(50) rotate(120)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(25 43) rotate(180)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-25 43) rotate(240)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-50) rotate(300)"/>
+
+</g><g stroke="#eee" stroke-width="1" transform="translate(0 86)">
+
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-25 -43)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(25 -43) rotate(60)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(50) rotate(120)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(25 43) rotate(180)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-25 43) rotate(240)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-50) rotate(300)"/>
+
+</g><g stroke="#eee" stroke-width="1" transform="translate(75 43)">
+
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-25 -43)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(25 -43) rotate(60)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(50) rotate(120)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(25 43) rotate(180)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-25 43) rotate(240)"/>
+	<line x1="0" y1="0" x2="50" y2="0" transform="translate(-50) rotate(300)"/>
+
+</g></svg>

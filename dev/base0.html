@@ -1,0 +1,79 @@
+<meta charset="iso-8859-1">
+
+<meta name="description" content="base">
+
+<title>Base...</title>
+
+<style></style>
+
+<script type="application/ld+json">
+{
+	"@context": "https://json-ld.org/contexts/person.jsonld",
+	"@id": "http://dbpedia.org/resource/John_Lennon",
+	"name": "John Lennon",
+	"born": "1940-10-09",
+	"spouse": "http://dbpedia.org/resource/Cynthia_Lennon",
+	"@type": "Person"
+}
+</script>
+
+<base target="_top" href="localhost">
+<base target="_self" href="/">
+
+<a href="login.html" target="_blank" rel="external nofollow noopener noreferrer">http://localhost/login.html</a>
+
+<a id="info-3" href="https://www.realmode.io" rel="external alternate nofollow noopener noreferrer">https://www.realmode.io</a>
+<iframe id="iframe-1" width="100%" height="100%" sandbox="allow-scripts" aria-label="iframe"></iframe>
+
+<canvas id="canvas-area" width="100" height="100">canvas</canvas>
+
+<svg class="hr" width="100%" height="3">
+
+  <line x1="0" x2="100%" y1="3" y2="3" stroke="white" stroke-width="1"/>
+  <line x1="0" x2="100%" y1="2" y2="2" stroke="black" stroke-width="2"/>
+  <line x1="0" x2="100%" y1="1" y2="1" stroke="white" stroke-width="1"/>
+
+</svg>
+
+<form method="post" action="proto.php"><input type="submit" value="!" disabled></form>
+
+<iframe></iframe>
+
+<portal></portal>
+
+<img>
+
+<video><!-- <source></source> --></video>
+
+<audio><!-- <source></source> --></audio>
+
+<picture><!-- <source></source> --></picture>
+
+<table></table>
+
+<address></address>
+
+<math></math>
+
+<time></time>
+
+<a href="http://localhost" target="_blank" rel="external">http://localhost/</a>
+<a href="file:///C:\Users\Super\Desktop\tests\test.htm" target="_blank" rel="external">C:\Users\Super\Desktop\tests\test.htm</a>
+
+<script>
+
+	// canvas-area
+
+	if (document.querySelector('#canvas-area').getContext) {
+
+	  var ctx = document.querySelector('#canvas-area').getContext('2d');
+
+	  ctx.fillStyle = 'rgb(200, 0, 0)';
+	  ctx.fillRect(10, 10, 50, 50);
+
+	  ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
+	  ctx.fillRect(30, 30, 50, 50);
+
+	}
+
+</script>
